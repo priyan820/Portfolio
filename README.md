@@ -2,4 +2,6 @@
 
 Source for Manoj Bhatia's portfolio site: https://priyan820.github.io/Portfolio/
 
-Single self-contained page (`index.html`). Edit it and push to `main`; GitHub Pages republishes in a minute or two.
+Single self-contained page (`index.html`). GitHub Pages builds the live site from the `gh-pages` branch, so push changes there (and to `main` to keep them in sync). If you'd rather publish straight from `main`, switch the source under Settings > Pages.
+
+Note: the URL is case-sensitive. `/Portfolio/` works, `/portfolio/` does not.
