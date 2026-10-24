@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manoj Bhatia | Product Leader</title>
+<meta name="description" content="Manoj Bhatia, product leader. 13 years on the commerce side of a B2B platform at Chrome River and Emburse: payments, pricing and usage, audit and abuse, platform tooling.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manoj Bhatia | Product Leader">
+<meta property="og:description" content="Case studies: a card payments product built from zero, a revenue and cost P&L that led to usage-tiered pricing, and an AI platform rolled out under three products.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b34a22'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='600' fill='%23faf7f2' text-anchor='middle'%3EMB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #211f1c;
+    --ink-soft: #57534c;
+    --rust: #b34a22;
+    --rust-wash: #faf4ef;
+    --line: #e3ddd2;
+    --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+  }
+  ::selection { background: #f0d9cd; }
+  a { color: inherit; }
+  a:focus-visible, .btn:focus-visible { outline: 2px solid var(--rust); outline-offset: 3px; }
+  /* horizontal padding only, so section/header/footer keep their vertical rhythm */
+  .wrap { max-width: 760px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+  .wrap-wide { max-width: 980px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+  .wrap-inner { max-width: 712px; margin: 0 auto; }
+
+  /* nav */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,.93);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    max-width: 980px; margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  }
+  .nav-name { font-family: 'Fraunces', serif; font-size: 19px; font-weight: 600; color: var(--ink); text-decoration: none; }
+  .nav-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .nav-links a { color: var(--ink-soft); text-decoration: none; font-size: 14px; }
+  .nav-links a:hover { color: var(--rust); }
+
+  /* hero */
+  header { padding: 84px 0 60px; }
+  .kicker {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--rust); font-weight: 600; margin-bottom: 20px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif; font-weight: 500;
+    font-size: clamp(36px, 6vw, 56px); line-height: 1.08;
+    letter-spacing: -0.01em; margin-bottom: 28px;
+  }
+  .lede { font-size: 20px; line-height: 1.6; color: var(--ink-soft); max-width: 650px; }
+  .lede strong { color: var(--ink); font-weight: 600; }
+  .hero-contact { margin-top: 36px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 11px 20px; border-radius: 4px;
+    font-size: 15px; font-weight: 500; text-decoration: none;
+  }
+  .btn-solid { background: var(--ink); color: var(--paper); }
+  .btn-solid:hover { background: var(--rust); }
+  .btn-ghost { border: 1px solid var(--line); color: var(--ink); background: var(--card); }
+  .btn-ghost:hover { border-color: var(--rust); color: var(--rust); }
+
+  /* facts strip */
+  .facts {
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: 26px 0; margin-bottom: 32px;
+  }
+  .facts-row {
+    max-width: 980px; margin: 0 auto; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 24px;
+  }
+  .fact b { display: block; font-family: 'Fraunces', serif; font-size: 24px; font-weight: 600; line-height: 1.3; }
+  .fact span { font-size: 13.5px; color: var(--ink-soft); }
+
+  /* sections */
+  section { padding-top: 40px; padding-bottom: 64px; }
+  h2 {
+    font-family: 'Fraunces', serif; font-weight: 500; font-size: 32px; line-height: 1.2;
+    margin-bottom: 14px; letter-spacing: -0.01em;
+  }
+  .section-intro { color: var(--ink-soft); max-width: 640px; margin-bottom: 36px; }
+  p + p { margin-top: 16px; }
+
+  /* fit map */
+  .fit { border-top: 1px solid var(--line); }
+  .fit-row {
+    display: grid; grid-template-columns: 210px 1fr; gap: 28px;
+    padding: 18px 0; border-bottom: 1px solid var(--line);
+  }
+  .fit-area {
+    font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--rust); font-weight: 600; padding-top: 3px;
+  }
+  .fit-what { font-size: 16px; }
+  .fit-row.gap .fit-area { color: var(--ink); }
+  .fit-row.gap .fit-what { color: var(--ink-soft); }
+
+  /* arc */
+  .arc { list-style: none; border-left: 2px solid var(--line); margin-left: 6px; }
+  .arc li { padding: 0 0 28px 26px; position: relative; }
+  .arc li:last-child { padding-bottom: 4px; }
+  .arc li::before {
+    content: ''; position: absolute; left: -7px; top: 7px;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--paper); border: 2.5px solid var(--rust);
+  }
+  .arc .role { font-weight: 600; font-size: 16.5px; }
+  .arc .when { font-size: 13.5px; color: var(--ink-soft); margin-left: 8px; white-space: nowrap; }
+  .arc p { font-size: 15.5px; color: var(--ink-soft); margin-top: 4px; max-width: 640px; }
+
+  /* case studies */
+  .case {
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    padding: 44px 46px; margin-bottom: 28px;
+  }
+  .case-num {
+    font-family: 'Fraunces', serif; color: var(--rust);
+    font-size: 15px; font-weight: 600; margin-bottom: 10px;
+  }
+  .case-new {
+    display: inline-block; margin-left: 10px; padding: 1px 8px; border-radius: 3px;
+    background: var(--rust-wash); border: 1px solid #efd6c8; color: var(--rust);
+    font-family: 'Inter', sans-serif; font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; vertical-align: 2px;
+  }
+  .case h3 {
+    font-family: 'Fraunces', serif; font-weight: 500; font-size: 26px;
+    line-height: 1.25; margin-bottom: 6px;
+  }
+  .case .case-sub { color: var(--ink-soft); font-size: 15px; margin-bottom: 26px; }
+  .case h4 {
+    font-size: 13px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--rust); margin: 26px 0 8px; font-weight: 600;
+  }
+  .case p { font-size: 16px; }
+  .case ul { margin: 10px 0 0 20px; }
+  .case li { margin-bottom: 8px; font-size: 16px; }
+  .outcome {
+    margin-top: 28px; padding: 18px 22px; border-left: 3px solid var(--rust);
+    background: var(--rust-wash); font-size: 15.5px;
+  }
+  .outcome b { font-weight: 600; }
+
+  /* small cards */
+  .ops { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .op {
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    padding: 22px 24px; font-size: 15px;
+  }
+  .op h3 { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15.5px; margin-bottom: 6px; }
+  .op p { color: var(--ink-soft); }
+
+  /* quotes */
+  .quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+  blockquote {
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    padding: 26px 30px;
+  }
+  blockquote p { font-family: 'Fraunces', serif; font-size: 18.5px; line-height: 1.5; }
+  blockquote cite { display: block; margin-top: 12px; font-style: normal; font-size: 13.5px; color: var(--ink-soft); }
+
+  /* closing */
+  .closing { background: var(--ink); color: #efece6; border-radius: 10px; padding: 48px; }
+  .closing h2 { color: #fff; }
+  .closing p { color: #d6d0c6; max-width: 660px; }
+  .closing strong { color: #fff; font-weight: 600; }
+  .closing .actions { margin-top: 28px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .closing .btn-solid { background: var(--rust); color: #fff; }
+  .closing .btn-solid:hover { background: #d05a2c; }
+  .closing .btn-ghost { background: transparent; color: #efece6; border-color: #5a554d; }
+  .closing .btn-ghost:hover { color: #fff; border-color: #efece6; }
+
+  footer { padding-top: 8px; padding-bottom: 64px; color: var(--ink-soft); font-size: 14px; }
+  footer a { color: var(--ink); }
+
+  @media (max-width: 760px) {
+    .nav-links { display: none; }
+    header { padding-top: 56px; padding-bottom: 44px; }
+    .lede { font-size: 18px; }
+    .fit-row { grid-template-columns: 1fr; gap: 4px; }
+    .case { padding: 30px 22px; }
+    .case h3 { font-size: 23px; }
+    .closing { padding: 34px 24px; }
+    h2 { font-size: 28px; }
+  }
+  @media print {
+    nav { display: none; }
+    body { font-size: 12pt; background: #fff; }
+    .case, .op, blockquote { break-inside: avoid; }
+    .closing { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+    .closing h2, .closing p, .closing strong { color: var(--ink); }
+  }
+</style>
+</head>
+<body>
+
+<nav aria-label="Sections">
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">Manoj Bhatia</a>
+    <div class="nav-links">
+      <a href="#fit">Riot Commerce fit</a>
+      <a href="#work">Case studies</a>
+      <a href="#how">How I work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<header id="top" class="wrap">
+  <div class="kicker">Product leader &middot; Los Angeles, CA</div>
+  <h1>Thirteen years on the money side of software.</h1>
+  <p class="lede">I'm Manoj. I came up the long way at Chrome River and Emburse, from business analyst to <strong>Senior Director of Product</strong>. Today I run product for Emburse Enterprise: expense, invoice and cards, about 7 engineering teams, and the company's largest revenue base ($100M+). I still do a lot of the work myself. In 2026 I built the revenue and cost P&amp;L we'd never had, and it showed us where heavy usage was costing more than we charged.</p>
+  <div class="hero-contact">
+    <a class="btn btn-solid" href="#work">Read the case studies</a>
+    <a class="btn btn-ghost" href="mailto:manojrsb@gmail.com">manojrsb@gmail.com</a>
+  </div>
+</header>
+
+<div class="facts" role="list" aria-label="At a glance">
+  <div class="facts-row">
+    <div class="fact" role="listitem"><b>13 years</b><span>in product, analyst to Senior Director</span></div>
+    <div class="fact" role="listitem"><b>$100M+</b><span>recurring revenue in my portfolio</span></div>
+    <div class="fact" role="listitem"><b>7 : 2</b><span>engineering teams to PMs today</span></div>
+    <div class="fact" role="listitem"><b>$5M+</b><span>card revenue, product built from zero</span></div>
+    <div class="fact" role="listitem"><b>95%+</b><span>AI transcription accuracy, every Enterprise account</span></div>
+  </div>
+</div>
+
+<section class="wrap" id="fit">
+  <h2>Riot Commerce, and where I've done the work</h2>
+  <p class="section-intro">I haven't worked in games, and I won't pretend otherwise. What I have done for 13 years is the commerce side of a B2B platform: payments, usage pricing, abuse, and the tools other teams configure. Here's how that lines up with what the Commerce Initiative covers.</p>
+  <div class="fit">
+    <div class="fit-row">
+      <div class="fit-area">Payments</div>
+      <div class="fit-what">Built Emburse Cards from zero (pre-spend controls, real-time alerts), then the Enterprise side of UK and Amex card expansion. Streamlined the purchasing card flow. Fixed long-running payment workflow issues for a top global account.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Fraud and abuse</div>
+      <div class="fit-what">Relaunched our AI expense audit product, up against AppZen. Shipped receipt-to-card matching to stop duplicate submissions. Caught API and analytics over-use, some of it abuse, with my own P&amp;L data (case 01).</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Pricing, metering, billing</div>
+      <div class="fit-what">Moved our most expensive capabilities to usage tiers. Wrote the enterprise metering and billing requirements for a self-service launch. Defended price increases at renewal with a year of delivered value.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Configuration and admin tools</div>
+      <div class="fit-what">Changeset Management, which governs how admins validate and roll out configuration changes (case 04). Card controls for admins. Product ops for the Tools and Rules teams behind policy configuration.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Platform for other teams</div>
+      <div class="fit-what">One in-house AI capture platform under three Emburse expense products (case 03). The external Expense API for audit and tax partners. ERP integrations with SAP, NetSuite, QuickBooks and Sage Intacct.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Global, privacy, identity</div>
+      <div class="fit-what">UK cards, German per diem rules, Hungary's e-receipt archive, VAT reclaim, 38 languages. MFA for privileged access and an accessibility program, part of a security roadmap that removed $10M+ in ARR risk.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Data, ML, cost health</div>
+      <div class="fit-what">Our first AI category model in production. GenAI transcription at 95%+ accuracy. A revenue and cost P&amp;L by account and product, which I built in Python on Snowflake and Looker data.</div>
+    </div>
+    <div class="fit-row">
+      <div class="fit-area">Leading PMs</div>
+      <div class="fit-what">Managing people since 2015. Hired and coached PMs through two reorgs and a workforce reduction with no regrettable attrition, and helped onboard a new product director.</div>
+    </div>
+    <div class="fit-row gap">
+      <div class="fit-area">What I'd have to learn</div>
+      <div class="fit-what">Games, players, and inventory and fulfillment for digital goods. I'd spend my first weeks with game teams and player support before I touched the roadmap.</div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap-wide" id="work">
+  <div class="wrap-inner">
+    <h2>Case studies</h2>
+    <p class="section-intro">Four pieces of work that show how I operate. Figures are rounded or generalized where the real numbers are internal. Happy to go deeper in person.</p>
+  </div>
+
+  <article class="case">
+    <div class="case-num">01 <span class="case-new">2026</span></div>
+    <h3>The P&amp;L we'd never had, and what it showed us</h3>
+    <p class="case-sub">Emburse Enterprise &middot; 2026 &middot; Unit economics, pricing, abuse</p>
+    <h4>The setup</h4>
+    <p>We charge customers for API access and for pulling data out through Analytics. Both cost us money as usage grows. What nobody could tell you was what a given account earned us against what it cost us. Revenue and cost by account and product didn't exist in one place. The pieces sat in Excel files, Snowflake and Looker, and none of them lined up.</p>
+    <h4>What I did</h4>
+    <ul>
+      <li>Pulled revenue and cost by account and product out of Excel, Snowflake and Looker, and wrote the Python to join it (AI tools did a lot of the typing). It publishes to an internal site.</li>
+      <li>Every quarter I take the numbers from it into the leadership review. Leadership reads the deck. The site is my working tool.</li>
+      <li>Used it to look for whitespace: which accounts and products had room to grow.</li>
+      <li>It also showed a set of accounts whose API calls and analytics data extraction cost us more than they paid. Some of that was heavy, legitimate use. Some of it was abuse.</li>
+      <li>Led the fix through pricing. Those capabilities moved to usage tiers, so heavy use gets paid for.</li>
+    </ul>
+    <div class="outcome"><b>Outcome:</b> leadership gets a revenue and cost view by account and product every quarter, and the heaviest users of our most expensive capabilities now pay by usage tier. I've left the dollar figures off this page.</div>
+    <h4>What I'd tell you about it</h4>
+    <p>Averages hide pricing problems. Once cost sat next to revenue for each account, our most valuable customers and our most expensive ones stopped looking like the same customers.</p>
+  </article>
+
+  <article class="case">
+    <div class="case-num">02</div>
+    <h3>A card payments product from zero, then monetization a quarter early</h3>
+    <p class="case-sub">Emburse &middot; 2020 - 2025 &middot; 0-to-1, payments, monetization</p>
+    <h4>The setup</h4>
+    <p>We had the expense workflow. We didn't have the spend. Cards put us in the transaction flow instead of after it, with controls before the money moves instead of cleanup afterward. The catch: an expense company has no native credibility in payments, so the product had to earn it.</p>
+    <h4>What I did</h4>
+    <ul>
+      <li>Built and launched Emburse Cards for the enterprise product: pre-spend controls for admins, real-time alerts, reporting. We went from our first customer to 15 in the first year.</li>
+      <li>Came back to it at scale in 2024-25: the Enterprise side of UK and Amex card expansion, receipt-to-card matching on the last four digits to kill duplicate submissions, and one-click setup for real-time transaction alerts.</li>
+      <li>When the Cards team brought a late issuance ask mid-year, I rebalanced the roadmap to get it engineering-ready that quarter instead of letting it slip. That pulled first-year card monetization forward a full quarter.</li>
+    </ul>
+    <div class="outcome"><b>Outcome:</b> a card line past $5M in revenue, attached to the expense workflow, plus card-driven automation (real-time feeds, matching) that makes the core product stickier.</div>
+    <h4>What I'd tell you about it</h4>
+    <p>Distribution beat polish. We won card deals because the workflow was already in the building. The decision that mattered most wasn't a feature. It was re-sequencing the roadmap so revenue didn't wait a quarter.</p>
+  </article>
+
+  <article class="case">
+    <div class="case-num">03</div>
+    <h3>One AI capture platform under three products, with no big-bang cutover</h3>
+    <p class="case-sub">Emburse Enterprise &middot; 2023 - 2025 &middot; AI/ML, platform migration, build vs. buy</p>
+    <h4>The setup</h4>
+    <p>Expense automation lives or dies on transcription. Our OCR stack had grown into a patchwork: a third-party engine we paid real money for, with Microsoft and Google services stitched underneath. Accuracy had plateaued, and every renewal conversation landed on the same question: when does this get more automated?</p>
+    <h4>What I did</h4>
+    <ul>
+      <li>Owned the product side of moving capture to an in-house GenAI transcription platform, with our Data Science team. I took applied AI coursework so I could push back on model decisions with some credibility, and set up the PRD structure we now use for AI investments.</li>
+      <li>Sequenced the rollout: internal pilot, early adopters, then 100% of Enterprise accounts on web and mobile. The same platform went under two more Emburse expense products in the same program.</li>
+      <li>Kept a kill list next to the build list. We shut down the third-party OCR engine and two legacy services, and the savings paid for part of the program.</li>
+      <li>Put our first category suggestion model into production. It replaced the legacy prediction engine, and the internal pilot cut manual edits by about 80%.</li>
+      <li>Extended the platform into GenAI hotel and car folio itemization and AI auto-merge for card transactions. That's the unglamorous plumbing behind one-click expense.</li>
+    </ul>
+    <div class="outcome"><b>Outcome:</b> transcription accuracy up 20+ points to 95%+ on expenses, at or above competitor benchmarks, running for every Enterprise account. It's also the base for the agentic expense work I lead now.</div>
+    <h4>What I'd tell you about it</h4>
+    <p>AI products fail in the seams, not in the model. The model team can show you a great demo in a month. The two years go into folio edge cases, merge logic, rollout order, and deciding what to turn off.</p>
+  </article>
+
+  <article class="case">
+    <div class="case-num">04</div>
+    <h3>Our angriest global account, back to a renewal conversation</h3>
+    <p class="case-sub">Emburse Enterprise &middot; 2024 - 2025 &middot; Admin tooling, escalation, executive communication</p>
+    <h4>The setup</h4>
+    <p>One of our largest global accounts, a multinational manufacturer, had escalated to the executive level. Years of friction: payment workflows, how configuration changes got validated and rolled out, integration gaps. The company stood up a task force. I ran the product side.</p>
+    <h4>What I did</h4>
+    <ul>
+      <li>Turned a long grievance list into a committed, sequenced plan, then protected it.</li>
+      <li>Shipped Changeset Management in two phases. It changed how admins validate and roll out configuration changes, which was their single biggest operational complaint.</li>
+      <li>Fixed long-running payment workflow issues that were slowing their global rollout.</li>
+      <li>Made trade-offs explicit. When two of their priorities collided on one engineering team, I laid out the conflict and a recommendation and let them choose. They chose, we delivered, and trust went up.</li>
+      <li>Met their leadership alongside our CS team. Same playbook I've used on dozens of escalations across construction, legal, consulting and university accounts: show a year of delivered value first, then use the roadmap to defend the price.</li>
+    </ul>
+    <div class="outcome"><b>Outcome:</b> the task force closed out its commitments, the account de-escalated, and renewal conversations reopened while they kept expanding globally on our platform. The same playbook protected six-figure ARR at other at-risk accounts.</div>
+    <h4>What I'd tell you about it</h4>
+    <p>Escalations are discovery with the stakes turned up. Every angry workstream on that task force pointed at a real product gap, and half of what we built for them ended up on the core roadmap for everyone.</p>
+  </article>
+</section>
+
+<section class="wrap" id="arc">
+  <h2>The short version</h2>
+  <p class="section-intro">Same company, same domain, scope that kept growing. I learned expense, invoice, cards and payments data from the bottom up.</p>
+  <ul class="arc">
+    <li>
+      <span class="role">Senior Director of Product, Emburse</span><span class="when">2025 - present</span>
+      <p>Run product for Emburse Enterprise: expense, invoice and cards. AI automation (transcription, GenAI folio, auto-merge), UK and Amex card expansion, the agentic expense strategy, and in 2026 the revenue and cost P&amp;L that moved our heaviest capabilities to usage tiers. About 7 engineering teams, 2 PMs.</p>
+    </li>
+    <li>
+      <span class="role">Director of Product Management, Emburse</span><span class="when">2022 - 2025</span>
+      <p>Hired and coached a team of PMs through two reorgs and a workforce reduction. Shipped 30+ features, took on Enterprise Invoice alongside Expense, relaunched the audit product, and ran point on our hardest customer escalations.</p>
+    </li>
+    <li>
+      <span class="role">Senior Product Manager, Emburse</span><span class="when">2018 - 2022</span>
+      <p>Owned core Enterprise Expense. Built the card product from scratch, plus German per diem compliance, ERP integrations (SAP, NetSuite, QuickBooks, Sage Intacct) and the external Expense API.</p>
+    </li>
+    <li>
+      <span class="role">Product Manager, Chrome River</span><span class="when">2015 - 2018</span>
+      <p>Led the first OCR project (receipt data entry time down ~80%) and the move off the legacy Flash app to HTML5. Hired and managed the BA team.</p>
+    </li>
+    <li>
+      <span class="role">Senior Business Analyst, Chrome River</span><span class="when">2013 - 2015</span>
+      <p>Automated translation of the web app into 38 languages, shipped VAT reclaim through a partner integration, and ran a 10-person offshore QA team. This is where I learned the system cold.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="wrap" id="ops">
+  <h2>The unglamorous stuff</h2>
+  <p class="section-intro">Work that doesn't make a case study but tells you what I'm like to work with.</p>
+  <div class="ops">
+    <div class="op"><h3>Actuals vs. allowables</h3><p>Built on the per diem engine we already had, in weeks. It became our wedge against Concur in higher ed and government and grew into a six-figure monthly recurring revenue program.</p></div>
+    <div class="op"><h3>Flash to HTML5 migration</h3><p>Moved the entire customer base off the legacy Flash app. Years-long, zero appetite for breakage.</p></div>
+    <div class="op"><h3>Connector costs cut in half</h3><p>While covering for my VP, I moved connector builds from product to Services. Connector development cost dropped about 50%.</p></div>
+    <div class="op"><h3>Saying no to old products</h3><p>Killed IE support and several unprofitable legacy products. Saving money is a product skill too.</p></div>
+    <div class="op"><h3>Regression bug process</h3><p>Connected Support and Engineering with product visibility. Turnaround times improved within the first quarter.</p></div>
+    <div class="op"><h3>PRD and intake standards</h3><p>Created the PRD template and the single intake playbook teams use today, built from cross-functional feedback rather than decree.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="how">
+  <h2>How I work</h2>
+  <div class="ops" style="margin-top:24px;">
+    <div class="op"><h3>Prototype first</h3><p>For high-value prospects I bring Sales and Design together on clickable prototypes before we commit code. We prove we understand the problem, test the solution, and help close the deal in one move.</p></div>
+    <div class="op"><h3>I build things myself</h3><p>The P&amp;L site in case 01 is Python I wrote with AI tools. Our product explainer videos are code too, made with Cursor and Remotion. My SQL stayed sharp through every promotion, so engineers don't have to translate for me.</p></div>
+    <div class="op"><h3>Trade-offs out loud</h3><p>I run as many as 7 engineering teams with 2 PMs. That only works when priorities are explicit. When two asks collide on one team, I write down the conflict and a recommendation and get a decision, instead of letting both slip.</p></div>
+    <div class="op"><h3>Commitments are commitments</h3><p>If I commit, it ships. If it's at risk, you hear it from me first, early, with options. In the second half of 2024 my teams hit 100% of customer-facing roadmap commitments.</p></div>
+  </div>
+</section>
+
+<section class="wrap-wide" id="reviews">
+  <div class="wrap-inner">
+    <h2>From my performance reviews</h2>
+    <p class="section-intro">Verbatim, from written manager evaluations and 360 feedback over the years. References available who will say it to your face.</p>
+  </div>
+  <div class="quotes">
+    <blockquote>
+      <p>"His efforts were instrumental in retaining clients, engaging high value prospects, and enhancing enterprise value throughout the year - all with no regrettable loss of staff."</p>
+      <cite>Manager evaluation, 2025</cite>
+    </blockquote>
+    <blockquote>
+      <p>"If he makes a commitment, he delivers and he proactively communicates obstacles until they are resolved. His approach [...] helped the team hit 100% of customer-facing roadmap commits made in the 2nd half of the year."</p>
+      <cite>Manager evaluation, 2024</cite>
+    </blockquote>
+    <blockquote>
+      <p>"His initial contributions to expense automation and AI OCR have laid the groundwork for the innovation roadmap."</p>
+      <cite>Manager evaluation, 2024</cite>
+    </blockquote>
+    <blockquote>
+      <p>"Manoj is great ... very responsive ... cares about implementations. He is always willing to get into the weeds."</p>
+      <cite>360 feedback, 2022</cite>
+    </blockquote>
+    <blockquote>
+      <p>"Great job pushing back at the right time."</p>
+      <cite>360 feedback, 2021</cite>
+    </blockquote>
+    <blockquote>
+      <p>"Amazing - we should clone him."</p>
+      <cite>360 feedback, 2021</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="wrap" id="next">
+  <div class="closing">
+    <h2>What I'd bring to Riot, and what I'd learn first</h2>
+    <p>I'd bring 13 years on the commercial side of a platform: payments, usage pricing, audit and abuse, and the tools other teams configure. I also bring a habit of opening the data myself before I form an opinion. I've run a lean multi-team portfolio and coached PMs through reorgs without losing the ones we wanted to keep.</p>
+    <p>What I'd need to learn is games: how players think about value and fairness when they buy, and how game teams want to configure and ship what they sell. I'd start there, with game teams and player support, before I changed anything on a roadmap.</p>
+    <div class="actions">
+      <a class="btn btn-solid" href="mailto:manojrsb@gmail.com">Get in touch</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/manoj-bhatia7" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap" id="contact">
+  <p><strong>Manoj Bhatia</strong> &middot; Los Angeles, CA<br>
+  <a href="mailto:manojrsb@gmail.com">manojrsb@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/manoj-bhatia7" target="_blank" rel="noopener">linkedin.com/in/manoj-bhatia7</a></p>
+  <p style="margin-top:10px;">Masters in Information Systems &middot; Bachelors in Computer Science &middot; Certified Product Owner (Scrum Alliance &amp; Pragmatic Marketing)</p>
+  <p style="margin-top:10px;">Updated October 2026.</p>
+</footer>
+
+</body>
+</html>
