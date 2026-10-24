@@ -261,7 +261,7 @@
     </div>
     <div class="fit-row">
       <div class="fit-area">Fraud and abuse</div>
-      <div class="fit-what">Relaunched our AI expense audit product, up against AppZen. Shipped receipt-to-card matching to stop duplicate submissions. Caught API and analytics over-use, some of it abuse, with my own P&amp;L data (case 01).</div>
+      <div class="fit-what">Relaunched our AI expense audit product, up against AppZen. Shipped receipt-to-card matching to stop duplicate submissions. Caught warehouse API and analytics over-use, some of it abuse, with my own P&amp;L data (case 01).</div>
     </div>
     <div class="fit-row">
       <div class="fit-area">Pricing, metering, billing</div>
@@ -308,10 +308,10 @@
     <p>We charge customers for warehouse API access and for pulling data out through our embedded analytics product. Both cost us money as usage grows. What nobody could tell you was what a given account earned us against what it cost us. Revenue and cost by account and product didn't exist in one place. The pieces sat in Excel files, Snowflake and Looker, and none of them lined up.</p>
     <h4>What I did</h4>
     <ul>
-      <li>Pulled revenue and cost by account and product out of Excel, Snowflake and Looker, and wrote the Python to join it (AI tools did a lot of the typing). It publishes to an internal site.</li>
+      <li>Pulled revenue and cost for the embedded analytics product, by account, out of Excel, Snowflake and Looker, and wrote the Python to join it (AI tools did a lot of the typing). It publishes to an internal site.</li>
       <li>Every quarter I take the numbers from it into the leadership review. Leadership reads the deck. The site is my working tool.</li>
       <li>Used it to look for whitespace: which accounts and products had room to grow.</li>
-      <li>It also showed a set of accounts whose API calls and analytics data extraction cost us more than they paid. Some of that was heavy, legitimate use. Some of it was abuse.</li>
+      <li>It also showed a set of accounts whose warehouse API calls and analytics data extraction cost us more than they paid. Some of that was heavy, legitimate use. Some of it was abuse.</li>
       <li>Led the fix through pricing. Those capabilities moved to usage tiers, so heavy use gets paid for.</li>
     </ul>
     <div class="outcome"><b>Outcome:</b> leadership gets a revenue and cost view by account and product every quarter, and the heaviest users of our most expensive capabilities now pay by usage tier. I've left the dollar figures off this page.</div>
@@ -329,7 +329,7 @@
     <ul>
       <li>Built and launched Emburse Cards for the enterprise product: pre-spend controls for admins, real-time alerts, reporting. We went from our first customer to 15 in the first year.</li>
       <li>Came back to it at scale in 2024-25: UK card issuance, Amex card expansion, receipt-to-card matching on the last four digits to kill duplicate submissions, and one-click setup for real-time transaction alerts.</li>
-      <li>When the Cards team brought a late issuance ask mid-year, I rebalanced the roadmap to get it engineering-ready that quarter instead of letting it slip. That pulled first-year card monetization forward a full quarter.</li>
+      <li>When a late card partnership request came in mid-year, I rebalanced the roadmap to get it engineering-ready that quarter instead of letting it slip. That pulled first-year monetization of the partnership forward a full quarter.</li>
     </ul>
     <div class="outcome"><b>Outcome:</b> a card line past $5M in revenue, attached to the expense workflow, plus card-driven automation (real-time feeds, matching) that makes the core product stickier.</div>
     <h4>What I'd tell you about it</h4>
@@ -419,7 +419,7 @@
   <h2>How I work</h2>
   <div class="ops" style="margin-top:24px;">
     <div class="op"><h3>Prototype first</h3><p>For high-value prospects I bring Sales and Design together on clickable prototypes before we commit code. We prove we understand the problem, test the solution, and help close the deal in one move.</p></div>
-    <div class="op"><h3>I build things myself</h3><p>The P&amp;L site in case 01 is Python I wrote with AI tools. Our product explainer videos are code too, made with Cursor and Remotion. My SQL stayed sharp through every promotion, so engineers don't have to translate for me.</p></div>
+    <div class="op"><h3>I build things myself</h3><p>I use AI to build internal applications. The P&amp;L site in case 01 is one of them, Python I wrote with AI tools. Our product explainer videos are code too, made with Cursor, Remotion and ElevenLabs. My SQL stayed sharp through every promotion, so engineers don't have to translate for me.</p></div>
     <div class="op"><h3>Trade-offs out loud</h3><p>I run as many as 7 engineering teams with 2 PMs. That only works when priorities are explicit. When two asks collide on one team, I write down the conflict and a recommendation and get a decision, instead of letting both slip.</p></div>
     <div class="op"><h3>Commitments are commitments</h3><p>If I commit, it ships. If it's at risk, you hear it from me first, early, with options. In H2 2025 my teams hit 100% of customer-facing roadmap commitments.</p></div>
   </div>
